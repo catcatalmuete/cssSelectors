@@ -5,27 +5,52 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	font-family: sans-serif;
+	font-family: serif;
+	text-align: center;
+}
+
+h1 {
+	font-size: 175%;
+	text-decoration: underline;
 }
 
 .container {
-  display: flex;
-  justify-content: space-between;
+  	display: flex;
+  	justify-content: space-around;
 }
 
-.block {
-  width: 30%;
-  height: 200px;
+.container div > p {
+	font-size: 100%;
+}
+
+.container .block1 > .unhighlight:not(p) {
+	background: lightseagreen;
+}
+
+.container .block2 > .unhighlight:not(p) {
+	background: lightyellow;
+}
+
+.container .block3 > .unhighlight:not(p) {
+	background: lightcoral;
+}
+
+.block1, .block2, .block3 {
+	width: 30vw;
+	height: 30vmax;
+	padding: 20px;
+	border: 5px solid black;
+	font-size: 125%;
 }
 
 .block1 {
-  background-color: red;
+  	background-color: red;
 }
 
 .block2 {
-  background-color: blue;
+  	background-color: blue;
 }
 
 .block3 {
-  background-color: green;
+  	background-color: green;
 }
