@@ -1,0 +1,31 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block {
+  width: 30%;
+  height: 200px;
+}
+
+.block1 {
+  background-color: red;
+}
+
+.block2 {
+  background-color: blue;
+}
+
+.block3 {
+  background-color: green;
+}
